@@ -42,3 +42,4 @@ Všetky odkazy na pôvodný účet `sonics007` (zdroj aktualizácií, workflowy,
   SHA-256 `50:DA:DD:64:0B:11:15:C7:D9:67:5E:CE:54:45:7B:E8:12:05:5A:98:37:CD:C7:B3:FD:A4:6B:D6:5F:BC:2E:F0`).
   Súkromný kľúč v APK nie je. Ak nájdeš `signing/development.keystore`, over ho:
   `keytool -list -v -keystore development.keystore` musí ukázať rovnaký SHA-256 odtlačok.
+- Samotné `Aurelvi-0.3.0.apk` je uložené v `archive/` (staršia verzia, neinštaluj ju cez novšiu).
