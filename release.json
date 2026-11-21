@@ -1,9 +1,9 @@
 {
-  "version": "0.3.15",
-  "versionCode": 14,
+  "version": "0.3.17",
+  "versionCode": 15,
   "package": "sk.openpanel.nspanel",
-  "file": "Aurelvi-0.3.15.apk",
-  "sha256": "3bea229d6f4b7dc4983f74c6b1fea2507182431c3ba7acf74eba16811514ee32",
-  "notes": "Aurelvi 0.3.15, built and signed by GitHub Actions with the new release key. Panels with an APK signed by the old OpenPanel Development key must uninstall the old app once before installing this one.",
-  "sourceCommit": "d7725af5b9176612583a09d528cd9c6db1a73978"
+  "file": "Aurelvi-0.3.17.apk",
+  "sha256": "8d34489ba13f4318e57fbf52a1d79a7256a2047e148f8e104e07bae0d63c7b26",
+  "notes": "Aurelvi 0.3.17, built and signed by GitHub Actions with the new release key. Panels with an APK signed by the old OpenPanel Development key must uninstall the old app once before installing this one.",
+  "sourceCommit": "364c6ebc3b9f4acf536ff8d64124c2ea51e397ee"
 }
