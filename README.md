@@ -4,7 +4,7 @@
 
 Public signed APK releases for NSPanel Pro and compatible Android 8+ wall panels. Android source code and signing keys are not included in this repository.
 
-[Download the latest APK](https://github.com/sonics007/aurelvi-apk/releases/latest) · [Home Assistant integration](https://github.com/sonics007/aurelvi-ha/releases/latest)
+[Download the latest APK](https://github.com/soso8782/aurelvi-apk/releases/latest) · [Home Assistant integration](https://github.com/soso8782/aurelvi-ha/releases/latest)
 
 ## Install or update
 
@@ -16,7 +16,7 @@ adb.exe -s PANEL_IP:5555 install -r Aurelvi-0.3.12.apk
 
 Do not uninstall to update. APK 0.3.12 uses the same signing certificate as previous releases and has versionCode 11.
 
-For in-app updates use repository `sonics007/aurelvi-apk` and leave the optional asset name empty. Android installation confirmation is required.
+For in-app updates use repository `soso8782/aurelvi-apk` and leave the optional asset name empty. Android installation confirmation is required.
 
 
 ## 0.3.12
@@ -33,7 +33,7 @@ Use HA integration 0.3.11 for the matching editor previews and updated website.
 
 80 original skins with six new material families: Art Deco, Hi-Fi, Ceramic, Japandi, Glass and Neon. The Hi-Fi meter reflects confirmed fan output, not audio levels. Settings includes native RSA-SHA256 licence application. No private issuer key is in the APK. All skins are currently open preview and checkout is disabled.
 
-Use HA 0.3.7 for complete selectable room inventories, paired control plates and room rebuild/removal. Visit [Aurelvi](https://sonics007.github.io/aurelvi-ha/) for the updated dark/light website and design gallery.
+Use HA 0.3.7 for complete selectable room inventories, paired control plates and room rebuild/removal. Visit [Aurelvi](https://soso8782.github.io/aurelvi-ha/) for the updated dark/light website and design gallery.
 
 ## 0.3.4
 
