@@ -1,9 +1,9 @@
 {
-  "version": "0.3.12",
-  "versionCode": 11,
+  "version": "0.3.15",
+  "versionCode": 14,
   "package": "sk.openpanel.nspanel",
-  "file": "Aurelvi-0.3.12.apk",
-  "sha256": "0652a77c40e8153712d0ddc4d5b6029c71bfc62672a459db7ae5f549b1ad1352",
-  "notes": "Includes all 0.3.11 features and fixes intercom contacts on older Android WebView engines. Eight realistic digital material finishes and 26 European core UI packs; advanced copy uses English fallback. SIP/WebRTC audio intercom preview: up to 12 individually selected contacts, one active call, mute and explicit incoming acceptance. Requires a compatible SIP/WSS provider and phone app; locked-screen ringing requires provider push support and real-device verification. Update installation preserves app settings.",
-  "sourceCommit": "ecd4b842a0c2002dd2fdca2519c44d62d33264c5"
+  "file": "Aurelvi-0.3.15.apk",
+  "sha256": "3bea229d6f4b7dc4983f74c6b1fea2507182431c3ba7acf74eba16811514ee32",
+  "notes": "Aurelvi 0.3.15, built and signed by GitHub Actions with the new release key. Panels with an APK signed by the old OpenPanel Development key must uninstall the old app once before installing this one.",
+  "sourceCommit": "d7725af5b9176612583a09d528cd9c6db1a73978"
 }
