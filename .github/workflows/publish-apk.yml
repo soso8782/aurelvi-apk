@@ -27,6 +27,10 @@ jobs:
             if (meta.package !== 'sk.openpanel.nspanel' || !Number.isInteger(meta.versionCode) || meta.versionCode < 5) {
               throw new Error('Unexpected package or versionCode');
             }
+            if (!fs.existsSync(`dist/${meta.file}`)) {
+              core.notice(`dist/${meta.file} is not in the repository; nothing to publish. Add the signed APK to dist/ and update release.json.`);
+              return;
+            }
             const apk = fs.readFileSync(`dist/${meta.file}`);
             const digest = crypto.createHash('sha256').update(apk).digest('hex');
             if (digest !== meta.sha256 || apk.length < 10000 || apk.length > 100 * 1024 * 1024 || apk.readUInt32LE(0) !== 0x04034b50) {
